@@ -1,0 +1,195 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(121, 255, 134);
+    color: rgb(51, 51, 51);
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: center;
+}
+
+.container {
+   margin-top: 100px;
+   width: 500px;
+   border: 2px solid rgb(51, 51, 51);
+   border-radius: 12px;
+   padding: 10px;
+   padding-top: 20px;
+   padding-bottom: 40px;
+}
+
+a {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    border: solid 2px rgb(51, 51, 51);
+    border-radius: 12px;
+    margin-top: 20px;
+    background-color: none;
+    width: 172px;
+}
+
+a:hover {
+    color: darkgrey;
+    background-color: rgb(51, 51, 51);
+    border: solid 2px darkgrey;
+    text-decoration: none;
+}
+
+input {
+    margin-bottom: 20px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
+    display: block;
+    width: 172px;
+}
+
+
+.renomear {
+    margin-top: 20px;
+}
+
+.checkbox {
+    width: auto;
+    display: inline-block;
+}
+
+.concluida {
+    text-align: center;
+}
+
+input:focus, button:focus{
+    outline: none;
+}
+
+.field {
+    text-align: center;
+}
+
+button {
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-transform: uppercase;
+    color: rgb(121, 255, 134);
+    border: solid 2px rgb(51, 51, 51);
+    border-radius: 12px;
+    background-color: rgb(51, 51, 51);
+    width: 172px;
+}
+
+button:hover {
+    border: solid 2px darkgrey;
+    color: darkgrey;
+    text-decoration: none;
+}
+
+#listas {
+    margin-top: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+#criar-lista {
+    display: none;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 12px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.lista {
+    display: block;
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+}
+
+.salvar, .adicionar {
+    margin-top:20px;
+    color: rgb(51, 51, 51);
+    background: none;
+    border: 2px solid rgb(51, 51, 51);
+}
+
+.salvar:hover, .adicionar:hover {
+   color: darkgrey;
+   background-color: rgb(51, 51, 51);
+   border: 2px solid darkgrey;
+   
+}
+
+#add {
+    margin-bottom: 20px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.tarefa {
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.nova-tarefa {
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.options {
+    border: 2px solid rgb(51, 51, 51);
+    border-radius: 12px;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}

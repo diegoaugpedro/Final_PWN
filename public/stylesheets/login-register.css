@@ -1,0 +1,89 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(121, 255, 134);
+    color: rgb(51, 51, 51);
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.container {
+   margin-top: 100px;
+   width: 300px;
+   border: 2px solid rgb(51, 51, 51);
+   border-radius: 12px;
+   padding: 10px;
+   padding-top: 20px;
+   padding-bottom: 40px;
+}
+
+a {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    border: solid 2px rgb(51, 51, 51);
+    border-radius: 12px;
+    margin-top: 20px;
+    background-color: none;
+    width: 172px;
+}
+
+a:hover {
+    color: darkgrey;
+    background-color: rgb(51, 51, 51);
+    border: solid 2px darkgrey;
+    text-decoration: none;
+}
+
+.field {
+    text-align: center;
+}
+
+input {
+    margin-bottom: 20px;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(51, 51, 51);
+    color: rgb(51, 51, 51);
+    display: block;
+    width: 172px;
+}
+
+
+input:focus, button:focus, a:focus{
+    outline: none;
+}
+
+
+label {
+    font-size: 16px;
+}
+
+button {
+
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-transform: uppercase;
+    color: rgb(121, 255, 134);
+    border: solid 2px rgb(51, 51, 51);
+    border-radius: 12px;
+    margin-top: 50px;
+    background-color: rgb(51, 51, 51);
+    width: 172px;
+}
+
+button:hover {
+    border: solid 2px darkgrey;
+    color: darkgrey;
+    text-decoration: none;
+}

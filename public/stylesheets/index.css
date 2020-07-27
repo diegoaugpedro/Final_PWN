@@ -1,0 +1,53 @@
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: rgb(121, 255, 134);
+    color: rgb(51, 51, 51);
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+
+a:focus{
+    outline: none;
+}
+
+.container {
+   margin-top: 100px;
+   width: 250px;
+   border: 2px solid rgb(51, 51, 51);
+   border-radius: 12px;
+   padding: 10px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+img {
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-transform: uppercase;
+    color: rgb(121, 255, 134);
+    border: solid 2px rgb(51, 51, 51);
+    border-radius: 12px;
+    margin-top: 20px;
+    background-color: rgb(51, 51, 51);
+    width: 172px;
+}
+
+a:hover {
+    color: rgb(51, 51, 51);
+    background-color: rgb(121, 255, 134);
+    border: solid 2px rgb(51, 51, 51);
+    text-decoration: none;
+}

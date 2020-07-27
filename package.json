@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "./node_modules/.bin/nodemon --inspect=0.0.0.0:3000 ./bin/www"
+    "start": "./node_modules/.bin/nodemon --inspect=mongodb+srv://user1:teste1@cluster0.jhtw8.mongodb.net/users?retryWrites=true&w=majority ./bin/www"
   },
   "dependencies": {
     "connect-ensure-login": "^0.1.1",
